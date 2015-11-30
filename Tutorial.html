@@ -36,6 +36,59 @@
       </div>
 	  
 	  <h3><a name="1">Creating the index file</a></h3>
+		<div class="panel panel-default">
+		  <div class="panel-body">
+			<p>
+			Find the folder on your flash drive called 'MyWebSite'. We will put everything that our website needs into this folder. 
+			There should already be 3 other folders in here (css, fonts and js) but we can ignore these for now. 
+			The main entry point for any website will be an HTML file named index.html. Go ahead and create a file named index.html 
+			in your MyWebSite folder. You can do this by navigating to the folder, right click, New -> Text Document, then name it index.html.
+			You might get a message asking if you are sure you want to change the file extension, you can click yes here.
+			</p>
+			<img src="TutorialAssets/images/create-index-file.jpg" class="img-responsive" alt="Responsive image">
+			<p>
+			We can write HTML code using the standard Notepad program that comes with Windows, however software developers often find it easier 
+			to use specialised tools that highlight their code and make it easier to see what is going on. We have included a program called Notepad++
+			on your flash drive that you can use to help you. Run Notepad++ and then click File -> Open, then choose your index.html file that you created.
+			</p>
+			<img src="TutorialAssets/images/open-in-notepad.jpg" class="img-responsive" alt="Responsive image">
+			<p>
+			Lets add some basic HTML to our index.html file. Copy and paste the code below into your file.
+			</p>
+			
+			<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;Bootstrap 101 Template&lt;/title&gt;
+		&lt;!-- Bootstrap CSS --&gt;
+		&lt;link href=&quot;css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+	&lt;/head&gt;
+	&lt;body&gt;
+  
+		&lt;h1&gt;Hello, world!&lt;/h1&gt;
+
+		&lt;!-- Include jQuery (necessary for Bootstrap's JavaScript plugins) --&gt;
+		&lt;script src=&quot;js/jquery-2.1.4.min.js&quot;&gt;&lt;/script&gt;
+		&lt;!-- Include Bootstap Javascript (necessary for some components) --&gt;
+		&lt;script src=&quot;js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+			</pre>
+			
+			<p>
+			Save the file, then open your index.html in Chrome. You should see the words Hello, world!. You can keep this file open in Chrome 
+			and every time you make changes to the HTML in index.html you can press F5 in Chrome to refresh it and see your changes.
+			</p>
+			<p>
+			Try changing the Hello, world! text to something else, like your name. You will also notice that the text is inside a header tag 
+			(<code>&lt;h1&gt;...&lt;/h1&gt;</code>). You can change the size of the header tag by changing the number. 1 is the largest and 6 is the smallest.
+			Remember that the number in the starting tag and the ending tag must be the same.			
+			</p>
+			
+		  </div>
+		</div>
 	  <h3><a name="2">Adding some content to our page</a></h3>
 	  <h3><a name="3">Styling with CSS</a></h3>
 	  <h3><a name="4">Adding some javascript</a></h3>

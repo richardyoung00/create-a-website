@@ -227,7 +227,55 @@
         </p>
     </div>
 
-    <h3><a name="4">Adding some javascript</a></h3>
+    <h3><a name="4">Adding some Javascript</a></h3>
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <p>
+                Now we will use Javascript to perform an action when we click a button. Javascript is a programming
+                language which runs inside your web browser. With Javascript we can change things on the page even
+                after the page has already loaded.
+            </p>
+
+            <p>
+                Change your submit button to look like this:
+                <code>
+                    &lt;input type=&quot;submit&quot; value=&quot;Submit&quot; onclick=&quot;myFunction()&quot;&gt;
+                </code><br/>
+                The 'onclick' attribute will tell your web browser to execute a Javascript function called 'myFunction'
+                when the button is clicked.
+            </p>
+
+            <p>
+                Add the following to your page before the first &lt;script&gt; element:
+            </p>
+
+<pre>
+&lt;script&gt;
+    function myFunction() {
+        alert('I am going to make the background yellow');
+        document.body.style.background = 'yellow';
+        alert('The background is now yellow');
+    }
+&lt;/script&gt;
+</pre>
+
+            <p>
+                Here's what will happen when you click the button:
+            </p>
+
+            <ol>
+                <li>A message box (alert) will say that the background is about to change</li>
+                <li>The background colour will change to yellow</li>
+                <li>Another message box will say that the background has now changed</li>
+            </ol>
+
+            <p>
+                Now try changing what the message boxes say or the colour which the background turns into.
+            </p>
+
+        </div>
+    </div>
 
     <h3><a name="5">Deploying our website to the web</a></h3>
 

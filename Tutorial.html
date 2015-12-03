@@ -124,6 +124,73 @@
 		</div>
 	  
 	  <h3><a name="3">Styling with CSS</a></h3>
+		<div class="panel-body">
+			<p>
+				This is the part where we make our web page look appealing to the users.
+				It is done using a style sheet language called Cascading Style Sheet, (CSS).
+				What we will done is to add some flavour to the TextBox, Button, Calender Date Picker and Labels created on the previous section.
+			</p>
+			<p>
+				CSS language is written/stored in a file with a .css extension.
+				We will put the css styling on a file called style.css located inside the css folder.
+
+				add the following to the style.css file <br/>
+				<code>
+					<br/>.input-text { <br/>
+						&emsp;&emsp; background-color: green;
+					<br/>}<br/>
+				</code>
+				<code>
+				.input-text input {<br/>
+					&emsp;&emsp;border-radius: 50%; <br/>
+					&emsp;&emsp;border: solid brown;
+					<br/>}
+				</code>
+			</p>
+			<p>
+				<b>.input-text</b> is the class name of the style we are working on.<br/>
+				<b>background-color</b> will change the background color of the element using this class.(More in this later)<br/>
+				<b>border-radius</b> will change how you want the corner of the element you are working on to look.<br/>
+				<b>border</b>: <i>solid</i> means you don't want a dotted line around the border, but a solid one, <i>brown</i> means you want the color of the border to be brown<br/>
+			</p>
+			<p>
+				There are many more CSS feature that can be used to style a page, next is how to use the class style you have defined in your style.css.
+			</p>
+			<p>
+				You need to tell your browser which css file to use, how do you do that?
+				Inside your html header tag, you can include the following line<br/>
+				<code>&lt;link href=&quot;css/style.css&quot; rel=&quot;stylesheet&quot;/&gt;</code><br/>
+				This tells your browser to use styles inside the given css file.
+			</p>
+			<p>
+				Let us style our TextBoxes. <br/>
+				CSS allows use to style one element (Button) or a group of elements (Buttons and/or Labels).
+				<br>
+				Lets style all the TextBoxes as group. In order to do this, we have to first group all elements using an html tag called div, which is an abbreviation of division.
+				We will do that by modifying the section with TextBoxes as follows: <br>
+				<code>
+					&lt;div&gt; <br/>
+					&emsp;&emsp;&emsp;&emsp;First name: &lt;input type=&quot;text&quot; name=&quot;fname&quot;&gt;&lt;br&gt; <br/>
+					&emsp;&emsp;&emsp;&emsp;Last name: &lt;input type=&quot;text&quot; name=&quot;lname&quot;&gt;&lt;br&gt;<br/>
+					&lt;/div&gt;
+				</code><br/>
+				</p>
+			<p>
+				To add a style, we will use an html tag attribute called class. We will add a class called input style to the div tag, and the code will look like the code below: <br/>
+				<code>
+					&lt;div class=&quot;input-text&quot;&gt; <br/>
+					&emsp;&emsp;&emsp;&emsp;First name: &lt;input type=&quot;text&quot; name=&quot;fname&quot;&gt;&lt;br&gt; <br/>
+					&emsp;&emsp;&emsp;&emsp;Last name: &lt;input type=&quot;text&quot; name=&quot;lname&quot;&gt;&lt;br&gt;<br/>
+					&lt;/div&gt;
+				</code><br/>
+			</p>
+			<p>
+				Go on, style the remaining html elements to look the way you want.
+				Always remember to start by defining your classes in the css file.
+				Style.css has a style defined that you can play around with and learn something from it as well.
+			</p>
+		</div>
+
 	  <h3><a name="4">Adding some javascript</a></h3>
 	  <h3><a name="5">Deploying our website to the web</a></h3>
 

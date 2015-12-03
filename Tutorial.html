@@ -1,7 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,197 +9,236 @@
     <meta name="author" content="">
 
     <title>Tutorial</title>
-	<link rel="shortcut icon" type="image/png" href="TutorialAssets/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="TutorialAssets/favicon.ico"/>
 
     <!-- Bootstrap core CSS -->
     <link href="TutorialAssets/css/bootstrap.min.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <div class="container">
-      
-      <!-- Main -->
-      <div class="jumbotron">
+<div class="container">
+
+    <!-- Main -->
+    <div class="jumbotron">
         <h1>Create a Website</h1>
+
         <p>Lets get started...</p>
-		<ol>
-			<li><a href='#1'>Creating the index file</a></li>
-			<li><a href='#2'>Adding some content to our page</a></li>
-			<li><a href='#3'>Styling with CSS</a></li>
-			<li><a href='#4'>Adding some javascript</a></li>
-			<li><a href='#5'>Deploying our website to the web</a></li>
-		</ol>
- 
-      </div>
-	  
-	  <h3><a name="1">Creating the index file</a></h3>
-		<div class="panel panel-default">
-		  <div class="panel-body">
-			<p>
-			Find the folder on your flash drive called 'MyWebSite'. We will put everything that our website needs into this folder. 
-			There should already be 3 other folders in here (css, fonts and js) but we can ignore these for now. 
-			The main entry point for any website will be an HTML file named index.html. Go ahead and create a file named index.html 
-			in your MyWebSite folder. You can do this by navigating to the folder, right click, New -> Text Document, then name it index.html.
-			You might get a message asking if you are sure you want to change the file extension, you can click yes here.
-			</p>
-			<img src="TutorialAssets/images/create-index-file.jpg" class="img-responsive" alt="Responsive image">
-			<p>
-			We can write HTML code using the standard Notepad program that comes with Windows, however software developers often find it easier 
-			to use specialised tools that highlight their code and make it easier to see what is going on. We have included a program called Notepad++
-			on your flash drive that you can use to help you. Run Notepad++ and then click File -> Open, then choose your index.html file that you created.
-			</p>
-			<img src="TutorialAssets/images/open-in-notepad.jpg" class="img-responsive" alt="Responsive image">
-			<p>
-			Lets add some basic HTML to our index.html file. Copy and paste the code below into your file.
-			</p>
-			
-			<pre>
+        <ol>
+            <li><a href='#1'>Creating the index file</a></li>
+            <li><a href='#2'>Adding some content to our page</a></li>
+            <li><a href='#3'>Styling with CSS</a></li>
+            <li><a href='#4'>Adding some javascript</a></li>
+            <li><a href='#5'>Deploying our website to the web</a></li>
+        </ol>
+
+    </div>
+
+    <h3><a name="1">Creating the index file</a></h3>
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <p>
+                Find the folder on your flash drive called 'MyWebSite'. We will put everything that our website needs
+                into this folder.
+                There should already be 3 other folders in here (css, fonts and js) but we can ignore these for now.
+                The main entry point for any website will be an HTML file named index.html. Go ahead and create a file
+                named index.html
+                in your MyWebSite folder. You can do this by navigating to the folder, right click, New -> Text
+                Document, then name it index.html.
+                You might get a message asking if you are sure you want to change the file extension, you can click yes
+                here.
+            </p>
+            <img src="TutorialAssets/images/create-index-file.jpg" class="img-responsive" alt="Responsive image">
+
+            <p>
+                We can write HTML code using the standard Notepad program that comes with Windows, however software
+                developers often find it easier
+                to use specialised tools that highlight their code and make it easier to see what is going on. We have
+                included a program called Notepad++
+                on your flash drive that you can use to help you. Run Notepad++ and then click File -> Open, then choose
+                your index.html file that you created.
+            </p>
+            <img src="TutorialAssets/images/open-in-notepad.jpg" class="img-responsive" alt="Responsive image">
+
+            <p>
+                Lets add some basic HTML to our index.html file. Copy and paste the code below into your file.
+            </p>
+
+            <pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
-	&lt;head&gt;
-		&lt;title&gt;Bootstrap 101 Template&lt;/title&gt;
-		&lt;!-- Bootstrap CSS --&gt;
-		&lt;link href=&quot;css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;head&gt;
+        &lt;title&gt;Bootstrap 101 Template&lt;/title&gt;
+        &lt;!-- Bootstrap CSS --&gt;
+        &lt;link href=&quot;css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
 
-	&lt;/head&gt;
-	&lt;body&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
   
-		&lt;h1&gt;Hello, world!&lt;/h1&gt;
+        &lt;h1&gt;Hello, world!&lt;/h1&gt;
 
-		&lt;!-- Include jQuery (necessary for Bootstrap's JavaScript plugins) --&gt;
-		&lt;script src=&quot;js/jquery-2.1.4.min.js&quot;&gt;&lt;/script&gt;
-		&lt;!-- Include Bootstap Javascript (necessary for some components) --&gt;
-		&lt;script src=&quot;js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
-	&lt;/body&gt;
+        &lt;!-- Include jQuery (necessary for Bootstrap's JavaScript plugins) --&gt;
+        &lt;script src=&quot;js/jquery-2.1.4.min.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- Include Bootstap Javascript (necessary for some components) --&gt;
+        &lt;script src=&quot;js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;/body&gt;
 &lt;/html&gt;
-			</pre>
-			
-			<p>
-			Save the file, then open your index.html in Chrome. You should see the words Hello, world!. You can keep this file open in Chrome 
-			and every time you make changes to the HTML in index.html you can press F5 in Chrome to refresh it and see your changes.
-			</p>
-			<p>
-			Try changing the Hello, world! text to something else, like your name. You will also notice that the text is inside a header tag 
-			(<code>&lt;h1&gt;...&lt;/h1&gt;</code>). You can change the size of the header tag by changing the number. 1 is the largest and 6 is the smallest.
-			Remember that the number in the starting tag and the ending tag must be the same.			
-			</p>
-			
-		  </div>
-		</div>
-	  <h3><a name="2">Adding some content to our page</a></h3>
-	    <div class="panel-body">
-			<p>
-			Web pages are written by Hyper Text Markup Language known commonly by the accronym HTML. 
-			HTML consists of elements that are surrounded by the <> and attributes that are written within the elements. Data that is displayed to the user is displayed placed within element tags. 
-			
-			We will learn how to add the following to out page. 
-			1. A TextBox
-			2. A Button
-			3. A Calendar Date Picker
-			4. A Label
-			
-			There are many other examples html tags that we can place on our page later. 
-			
-			</p>
-			
-			<p>
-			<h4>TextBox</h4>
-				First name: &lt;input type=&quot;text&quot; name=&quot;fname&quot;&gt;&lt;br&gt;<br/>  Last name: &lt;input type=&quot;text&quot; name=&quot;lname&quot;&gt;&lt;br&gt;
-			</p>
-			<p>
-			<h4>Button</h4>
-				&lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
-			</p>
-			<p>
-			<h4>Calendar</h4>
-				&lt;input type=&quot;date&quot;&gt;<br/>
-			</p>
-			<p>
-			<h4>Calendar</h4>
-				&lt;label&gt;text&lt;/label&gt;<br/>
-			</p>
-		</div>
-	  
-	  <h3><a name="3">Styling with CSS</a></h3>
-		<div class="panel-body">
-			<p>
-				This is the part where we make our web page look appealing to the users.
-				It is done using a style sheet language called Cascading Style Sheet, (CSS).
-				What we will done is to add some flavour to the TextBox, Button, Calender Date Picker and Labels created on the previous section.
-			</p>
-			<p>
-				CSS language is written/stored in a file with a .css extension.
-				We will put the css styling on a file called style.css located inside the css folder.
+            </pre>
 
-				add the following to the style.css file <br/>
-				<code>
-					<br/>.input-text { <br/>
-						&emsp;&emsp; background-color: green;
-					<br/>}<br/>
-				</code>
-				<code>
-				.input-text input {<br/>
-					&emsp;&emsp;border-radius: 50%; <br/>
-					&emsp;&emsp;border: solid brown;
-					<br/>}
-				</code>
-			</p>
-			<p>
-				<b>.input-text</b> is the class name of the style we are working on.<br/>
-				<b>background-color</b> will change the background color of the element using this class.(More in this later)<br/>
-				<b>border-radius</b> will change how you want the corner of the element you are working on to look.<br/>
-				<b>border</b>: <i>solid</i> means you don't want a dotted line around the border, but a solid one, <i>brown</i> means you want the color of the border to be brown<br/>
-			</p>
-			<p>
-				There are many more CSS feature that can be used to style a page, next is how to use the class style you have defined in your style.css.
-			</p>
-			<p>
-				You need to tell your browser which css file to use, how do you do that?
-				Inside your html header tag, you can include the following line<br/>
-				<code>&lt;link href=&quot;css/style.css&quot; rel=&quot;stylesheet&quot;/&gt;</code><br/>
-				This tells your browser to use styles inside the given css file.
-			</p>
-			<p>
-				Let us style our TextBoxes. <br/>
-				CSS allows use to style one element (Button) or a group of elements (Buttons and/or Labels).
-				<br>
-				Lets style all the TextBoxes as group. In order to do this, we have to first group all elements using an html tag called div, which is an abbreviation of division.
-				We will do that by modifying the section with TextBoxes as follows: <br>
-				<code>
-					&lt;div&gt; <br/>
-					&emsp;&emsp;&emsp;&emsp;First name: &lt;input type=&quot;text&quot; name=&quot;fname&quot;&gt;&lt;br&gt; <br/>
-					&emsp;&emsp;&emsp;&emsp;Last name: &lt;input type=&quot;text&quot; name=&quot;lname&quot;&gt;&lt;br&gt;<br/>
-					&lt;/div&gt;
-				</code><br/>
-				</p>
-			<p>
-				To add a style, we will use an html tag attribute called class. We will add a class called input style to the div tag, and the code will look like the code below: <br/>
-				<code>
-					&lt;div class=&quot;input-text&quot;&gt; <br/>
-					&emsp;&emsp;&emsp;&emsp;First name: &lt;input type=&quot;text&quot; name=&quot;fname&quot;&gt;&lt;br&gt; <br/>
-					&emsp;&emsp;&emsp;&emsp;Last name: &lt;input type=&quot;text&quot; name=&quot;lname&quot;&gt;&lt;br&gt;<br/>
-					&lt;/div&gt;
-				</code><br/>
-			</p>
-			<p>
-				Go on, style the remaining html elements to look the way you want.
-				Always remember to start by defining your classes in the css file.
-				Style.css has a style defined that you can play around with and learn something from it as well.
-			</p>
-		</div>
+            <p>
+                Save the file, then open your index.html in Chrome. You should see the words Hello, world!. You can keep
+                this file open in Chrome
+                and every time you make changes to the HTML in index.html you can press F5 in Chrome to refresh it and
+                see your changes.
+            </p>
 
-	  <h3><a name="4">Adding some javascript</a></h3>
-	  <h3><a name="5">Deploying our website to the web</a></h3>
+            <p>
+                Try changing the Hello, world! text to something else, like your name. You will also notice that the
+                text is inside a header tag
+                (<code>&lt;h1&gt;...&lt;/h1&gt;</code>). You can change the size of the header tag by changing the
+                number. 1 is the largest and 6 is the smallest.
+                Remember that the number in the starting tag and the ending tag must be the same.
+            </p>
 
-    </div> <!-- /container -->
+        </div>
+    </div>
+    <h3><a name="2">Adding some content to our page</a></h3>
+
+    <div class="panel-body">
+        <p>
+            Web pages are written by Hyper Text Markup Language known commonly by the accronym HTML.
+            HTML consists of elements that are surrounded by the <> and attributes that are written within the elements.
+            Data that is displayed to the user is displayed placed within element tags.
+
+            We will learn how to add the following to out page.
+            1. A TextBox
+            2. A Button
+            3. A Calendar Date Picker
+            4. A Label
+
+            There are many other examples html tags that we can place on our page later.
+
+        </p>
+
+        <p>
+        <h4>TextBox</h4>
+        First name: &lt;input type=&quot;text&quot; name=&quot;fname&quot;&gt;&lt;br&gt;<br/> Last name: &lt;input type=&quot;text&quot;
+        name=&quot;lname&quot;&gt;&lt;br&gt;
+        </p>
+        <p>
+        <h4>Button</h4>
+        &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
+        </p>
+        <p>
+        <h4>Calendar</h4>
+        &lt;input type=&quot;date&quot;&gt;<br/>
+        </p>
+        <p>
+        <h4>Calendar</h4>
+        &lt;label&gt;text&lt;/label&gt;<br/>
+        </p>
+    </div>
+
+    <h3><a name="3">Styling with CSS</a></h3>
+
+    <div class="panel-body">
+        <p>
+            This is the part where we make our web page look appealing to the users.
+            It is done using a style sheet language called Cascading Style Sheet, (CSS).
+            What we will done is to add some flavour to the TextBox, Button, Calender Date Picker and Labels created on
+            the previous section.
+        </p>
+
+        <p>
+            CSS language is written/stored in a file with a .css extension.
+            We will put the css styling on a file called style.css located inside the css folder.
+
+            add the following to the style.css file <br/>
+            <code>
+                <br/>.input-text { <br/>
+                &emsp;&emsp; background-color: green;
+                <br/>}<br/>
+            </code>
+            <code>
+                .input-text input {<br/>
+                &emsp;&emsp;border-radius: 50%; <br/>
+                &emsp;&emsp;border: solid brown;
+                <br/>}
+            </code>
+        </p>
+
+        <p>
+            <b>.input-text</b> is the class name of the style we are working on.<br/>
+            <b>background-color</b> will change the background color of the element using this class.(More in this
+            later)<br/>
+            <b>border-radius</b> will change how you want the corner of the element you are working on to look.<br/>
+            <b>border</b>: <i>solid</i> means you don't want a dotted line around the border, but a solid one,
+            <i>brown</i> means you want the color of the border to be brown<br/>
+        </p>
+
+        <p>
+            There are many more CSS feature that can be used to style a page, next is how to use the class style you
+            have defined in your style.css.
+        </p>
+
+        <p>
+            You need to tell your browser which css file to use, how do you do that?
+            Inside your html header tag, you can include the following line<br/>
+            <code>&lt;link href=&quot;css/style.css&quot; rel=&quot;stylesheet&quot;/&gt;</code><br/>
+            This tells your browser to use styles inside the given css file.
+        </p>
+
+        <p>
+            Let us style our TextBoxes. <br/>
+            CSS allows use to style one element (Button) or a group of elements (Buttons and/or Labels).
+            <br>
+            Lets style all the TextBoxes as group. In order to do this, we have to first group all elements using an
+            html tag called div, which is an abbreviation of division.
+            We will do that by modifying the section with TextBoxes as follows: <br>
+            <code>
+                &lt;div&gt; <br/>
+                &emsp;&emsp;&emsp;&emsp;First name: &lt;input type=&quot;text&quot; name=&quot;fname&quot;&gt;&lt;br&gt;
+                <br/>
+                &emsp;&emsp;&emsp;&emsp;Last name: &lt;input type=&quot;text&quot;
+                name=&quot;lname&quot;&gt;&lt;br&gt;<br/>
+                &lt;/div&gt;
+            </code><br/>
+        </p>
+
+        <p>
+            To add a style, we will use an html tag attribute called class. We will add a class called input style to
+            the div tag, and the code will look like the code below: <br/>
+            <code>
+                &lt;div class=&quot;input-text&quot;&gt; <br/>
+                &emsp;&emsp;&emsp;&emsp;First name: &lt;input type=&quot;text&quot; name=&quot;fname&quot;&gt;&lt;br&gt;
+                <br/>
+                &emsp;&emsp;&emsp;&emsp;Last name: &lt;input type=&quot;text&quot;
+                name=&quot;lname&quot;&gt;&lt;br&gt;<br/>
+                &lt;/div&gt;
+            </code><br/>
+        </p>
+
+        <p>
+            Go on, style the remaining html elements to look the way you want.
+            Always remember to start by defining your classes in the css file.
+            Style.css has a style defined that you can play around with and learn something from it as well.
+        </p>
+    </div>
+
+    <h3><a name="4">Adding some javascript</a></h3>
+
+    <h3><a name="5">Deploying our website to the web</a></h3>
+
+</div>
+<!-- /container -->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="TutorialAssets/js/jquery-2.1.4.min.js"></script>
-    <script src="TutorialAssets/js/bootstrap.min.js"></script>
-  </body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="TutorialAssets/js/jquery-2.1.4.min.js"></script>
+<script src="TutorialAssets/js/bootstrap.min.js"></script>
+</body>
 </html>
